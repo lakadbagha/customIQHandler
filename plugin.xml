@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+   <class>org.igniterealtime.openfire.customiqhandler.MyCustomQueryPlugin</class>
+   <name>Openfire Maven custom query Plugin</name>
+   <description>A Library to handle custom query for call by deepak</description>
+   <author>Deepak</author>
+   <version>1.0.0-SNAPSHOT</version>
+   <date>11/25/2020</date>
+   <minServerVersion>4.0.0</minServerVersion>
+    <!-- And if it won't work after:
+   <maxServerVersion>4.3.0</maxServerVersion>
+   -->
+
+   <adminconsole>
+      <tab id="tab-server">
+         <sidebar id="sidebar-server-settings">
+            <item id="customQuery-plugin-page" name="Example Plugin Properties" url="exampleplugin-page.jsp" description="Settings for Example Plugin" />
+         </sidebar>
+      </tab>
+   </adminconsole>
+</plugin>
